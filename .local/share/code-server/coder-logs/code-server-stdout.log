@@ -1,0 +1,159 @@
+[2023-12-07T06:41:05.569Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-07T06:41:05.570Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-07T06:41:05.579Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-07T06:41:05.579Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-07T06:41:05.579Z] info    - Authentication is disabled
+[2023-12-07T06:41:05.579Z] info    - Not serving HTTPS
+[2023-12-07T06:41:05.579Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[06:41:05] 
+
+
+
+
+[06:41:05] Extension host agent started.
+[06:41:05] Started initializing default profile extensions in extensions installation folder. file:///home/elicer/.local/share/code-server/extensions
+[06:41:05] Completed initializing default profile extensions in extensions installation folder. file:///home/elicer/.local/share/code-server/extensions
+[06:41:14] [10.0.2.100][d53031ee][ManagementConnection] New connection established.
+[06:41:16] [10.0.2.100][fe8b3dbb][ExtensionHostConnection] New connection established.
+[06:41:16] [10.0.2.100][fe8b3dbb][ExtensionHostConnection] <108> Launched Extension Host Process.
+[06:44:11] [10.0.2.100][d53031ee][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:44:12] [10.0.2.100][fe8b3dbb][ExtensionHostConnection] <108> Extension Host Process exited with code: 0, signal: null.
+[06:44:13] [10.0.2.100][59579d7e][ManagementConnection] New connection established.
+[06:44:15] [10.0.2.100][e665a102][ExtensionHostConnection] New connection established.
+[06:44:15] [10.0.2.100][e665a102][ExtensionHostConnection] <495> Launched Extension Host Process.
+[06:48:26] [10.0.2.100][59579d7e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:48:26] [10.0.2.100][e665a102][ExtensionHostConnection] <495> Extension Host Process exited with code: 0, signal: null.
+[06:48:27] [10.0.2.100][108c72e4][ManagementConnection] New connection established.
+[06:48:29] [10.0.2.100][6b136d36][ExtensionHostConnection] New connection established.
+[06:48:29] [10.0.2.100][6b136d36][ExtensionHostConnection] <1043> Launched Extension Host Process.
+[07:00:53] [10.0.2.100][6b136d36][ExtensionHostConnection] The client has reconnected.
+[07:00:54] [10.0.2.100][108c72e4][ManagementConnection] The client has reconnected.
+[2023-12-07T07:07:50.409Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-07T07:07:50.411Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-07T07:07:50.423Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-07T07:07:50.423Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-07T07:07:50.423Z] info    - Authentication is disabled
+[2023-12-07T07:07:50.424Z] info    - Not serving HTTPS
+[2023-12-07T07:07:50.424Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[07:07:50] 
+
+
+
+
+[07:07:50] Extension host agent started.
+[07:07:55] [10.0.2.100][2bd73043][ManagementConnection] New connection established.
+[07:07:57] [10.0.2.100][438f2487][ExtensionHostConnection] New connection established.
+[07:07:57] [10.0.2.100][438f2487][ExtensionHostConnection] <94> Launched Extension Host Process.
+[07:08:54] [10.0.2.100][55142479][ManagementConnection] New connection established.
+[07:08:56] [10.0.2.100][a9178b36][ExtensionHostConnection] New connection established.
+[07:08:56] [10.0.2.100][a9178b36][ExtensionHostConnection] <284> Launched Extension Host Process.
+[07:09:08] [10.0.2.100][55142479][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:09:08] [10.0.2.100][a9178b36][ExtensionHostConnection] <284> Extension Host Process exited with code: 0, signal: null.
+[08:01:58] [10.0.2.100][438f2487][ExtensionHostConnection] The client has reconnected.
+[08:02:05] [10.0.2.100][2bd73043][ManagementConnection] The client has reconnected.
+[2023-12-07T08:09:23.827Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-07T08:09:23.829Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-07T08:09:23.846Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-07T08:09:23.846Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-07T08:09:23.846Z] info    - Authentication is disabled
+[2023-12-07T08:09:23.846Z] info    - Not serving HTTPS
+[2023-12-07T08:09:23.846Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[08:09:24] 
+
+
+
+
+[08:09:24] Extension host agent started.
+[08:09:33] [10.0.2.100][cf9d7696][ManagementConnection] New connection established.
+[08:09:35] [10.0.2.100][44985a0f][ExtensionHostConnection] New connection established.
+[08:09:35] [10.0.2.100][44985a0f][ExtensionHostConnection] <94> Launched Extension Host Process.
+[08:32:33] [10.0.2.100][90248e4c][ManagementConnection] New connection established.
+[08:33:05] [10.0.2.100][63e0e7ad][ManagementConnection] New connection established.
+[08:33:07] [10.0.2.100][5f00d43a][ExtensionHostConnection] New connection established.
+[08:33:07] [10.0.2.100][5f00d43a][ExtensionHostConnection] <2355> Launched Extension Host Process.
+[08:33:11] [10.0.2.100][5f00d43a][ExtensionHostConnection] <2355> Extension Host Process exited with code: 0, signal: null.
+[08:33:11] [10.0.2.100][63e0e7ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:34:32] [10.0.2.100][7b6ab111][ManagementConnection] New connection established.
+[08:34:34] [10.0.2.100][292f68c2][ExtensionHostConnection] New connection established.
+[08:34:34] [10.0.2.100][292f68c2][ExtensionHostConnection] <2527> Launched Extension Host Process.
+[08:34:35] [10.0.2.100][292f68c2][ExtensionHostConnection] <2527> Extension Host Process exited with code: 0, signal: null.
+[08:34:36] [10.0.2.100][7b6ab111][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:35:19] [10.0.2.100][cf9d7696][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:35:19] [10.0.2.100][44985a0f][ExtensionHostConnection] <94> Extension Host Process exited with code: 0, signal: null.
+[2023-12-14T06:05:06.871Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-14T06:05:06.872Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-14T06:05:06.881Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-14T06:05:06.881Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-14T06:05:06.881Z] info    - Authentication is disabled
+[2023-12-14T06:05:06.881Z] info    - Not serving HTTPS
+[2023-12-14T06:05:06.881Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[06:05:07] 
+
+
+
+
+[06:05:07] Extension host agent started.
+[06:05:14] [10.0.2.100][d61175c4][ManagementConnection] New connection established.
+[06:05:16] [10.0.2.100][a2a88f9f][ExtensionHostConnection] New connection established.
+[06:05:16] [10.0.2.100][a2a88f9f][ExtensionHostConnection] <94> Launched Extension Host Process.
+[06:06:11] [10.0.2.100][d61175c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:06:11] [10.0.2.100][a2a88f9f][ExtensionHostConnection] <94> Extension Host Process exited with code: 0, signal: null.
+[06:15:07] [10.0.2.100][d8df9ba8][ManagementConnection] New connection established.
+[06:15:08] [10.0.2.100][b557ff4e][ExtensionHostConnection] New connection established.
+[06:15:08] [10.0.2.100][b557ff4e][ExtensionHostConnection] <228> Launched Extension Host Process.
+[06:15:12] [10.0.2.100][d8df9ba8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-12-17T23:06:01.280Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-17T23:06:01.281Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-17T23:06:01.322Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-17T23:06:01.323Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-17T23:06:01.323Z] info    - Authentication is disabled
+[2023-12-17T23:06:01.323Z] info    - Not serving HTTPS
+[2023-12-17T23:06:01.324Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[23:06:01] 
+
+
+
+
+[23:06:01] Extension host agent started.
+[23:06:05] [10.0.2.100][da67666b][ManagementConnection] New connection established.
+[23:06:07] [10.0.2.100][de66897d][ExtensionHostConnection] New connection established.
+[23:06:08] [10.0.2.100][de66897d][ExtensionHostConnection] <105> Launched Extension Host Process.
+[23:08:07] [10.0.2.100][da67666b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:08:07] [10.0.2.100][de66897d][ExtensionHostConnection] <105> Extension Host Process exited with code: 0, signal: null.
+[23:20:37] [10.0.2.100][85ee25a3][ManagementConnection] New connection established.
+[23:20:39] [10.0.2.100][fb8d8d1c][ExtensionHostConnection] New connection established.
+[23:20:39] [10.0.2.100][fb8d8d1c][ExtensionHostConnection] <382> Launched Extension Host Process.
+[23:31:40] [10.0.2.100][85ee25a3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:31:40] [10.0.2.100][fb8d8d1c][ExtensionHostConnection] <382> Extension Host Process exited with code: 0, signal: null.
+[2023-12-17T23:34:38.010Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-17T23:34:38.011Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-17T23:34:38.022Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-17T23:34:38.022Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-17T23:34:38.022Z] info    - Authentication is disabled
+[2023-12-17T23:34:38.022Z] info    - Not serving HTTPS
+[2023-12-17T23:34:38.022Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[23:34:38] 
+
+
+
+
+[23:34:38] Extension host agent started.
+[23:34:41] [10.0.2.100][aca11ef4][ManagementConnection] New connection established.
+[23:34:43] [10.0.2.100][48324b54][ExtensionHostConnection] New connection established.
+[23:34:43] [10.0.2.100][48324b54][ExtensionHostConnection] <94> Launched Extension Host Process.
+[2023-12-18T00:18:40.920Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-12-18T00:18:40.921Z] info  Using user-data-dir /home/elicer/.local/share/code-server
+[2023-12-18T00:18:40.933Z] info  Using config file /home/elicer/.config/code-server/config.yaml
+[2023-12-18T00:18:40.933Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2023-12-18T00:18:40.933Z] info    - Authentication is disabled
+[2023-12-18T00:18:40.933Z] info    - Not serving HTTPS
+[2023-12-18T00:18:40.933Z] info  Session server listening on /home/elicer/.local/share/code-server/code-server-ipc.sock
+[00:18:41] 
+
+
+
+
+[00:18:41] Extension host agent started.
+[00:18:45] [10.0.2.100][ae891442][ManagementConnection] New connection established.
+[00:18:47] [10.0.2.100][8401566a][ExtensionHostConnection] New connection established.
+[00:18:47] [10.0.2.100][8401566a][ExtensionHostConnection] <94> Launched Extension Host Process.

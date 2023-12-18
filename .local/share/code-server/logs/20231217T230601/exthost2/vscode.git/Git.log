@@ -1,0 +1,59 @@
+2023-12-17 23:20:42.414 [info] Log level: Info
+2023-12-17 23:20:42.414 [info] Validating found git in: "git"
+2023-12-17 23:20:42.414 [info] Using git "2.34.1" from "git"
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-17 23:20:42.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 23:20:42.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:20:42.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 23:20:42.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:20:42.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.414 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:20:42.415 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:42.753 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:20:42.753 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:20:44.060 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:20:44.060 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 23:26:17.471 [info] > git init -b main [11ms]
+2023-12-17 23:26:18.096 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 23:26:18.110 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-17 23:26:18.145 [info] Open repository: /home/elicer
+2023-12-17 23:26:18.169 [info] No remotes found in the git config file.
+2023-12-17 23:26:18.171 [info] > git config --get commit.template [12ms]
+2023-12-17 23:26:18.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-12-17 23:26:21.625 [info] > git status -z -uall [3443ms] (cancelled)
+2023-12-17 23:30:03.975 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-17 23:30:05.954 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-17 23:30:07.101 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-17 23:30:07.984 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-17 23:30:08.586 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.cache/pip/http/a/1/9/5/3/a19537d3cf37c122db841d6fe4cd322bc10d1a558bb00d146b85cb9a [2ms]
+2023-12-17 23:30:08.586 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:08.716 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-17 23:30:18.137 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-17 23:30:23.007 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.bash_history [2ms]
+2023-12-17 23:30:23.007 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:23.087 [info] > git show --textconv :.bash_history [15ms]
+2023-12-17 23:30:23.088 [info] > git ls-files --stage -- /home/elicer/.bash_history [3ms]
+2023-12-17 23:30:25.405 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.bash_logout [1ms]
+2023-12-17 23:30:25.405 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:25.595 [info] > git show --textconv :.bash_logout [13ms]
+2023-12-17 23:30:25.595 [info] > git ls-files --stage -- /home/elicer/.bash_logout [1ms]
+2023-12-17 23:30:26.383 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.bashrc [1ms]
+2023-12-17 23:30:26.383 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:26.538 [info] > git show --textconv :.bashrc [12ms]
+2023-12-17 23:30:26.539 [info] > git ls-files --stage -- /home/elicer/.bashrc [1ms]
+2023-12-17 23:30:32.801 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.project_file_okay [1ms]
+2023-12-17 23:30:32.802 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:33.041 [info] > git show --textconv :.project_file_okay [12ms]
+2023-12-17 23:30:33.041 [info] > git ls-files --stage -- /home/elicer/.project_file_okay [2ms]
+2023-12-17 23:30:33.744 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/주택임대차보호법(법률)(제19356호)(20230418).pdf [1ms]
+2023-12-17 23:30:33.744 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:34.845 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/starter.py [2ms]
+2023-12-17 23:30:34.846 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:30:35.094 [info] > git show --textconv :starter.py [10ms]
+2023-12-17 23:30:35.096 [info] > git ls-files --stage -- /home/elicer/starter.py [2ms]
+2023-12-17 23:31:04.495 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/starter.py [1ms]
+2023-12-17 23:31:04.496 [info] fatal: your current branch 'main' does not have any commits yet

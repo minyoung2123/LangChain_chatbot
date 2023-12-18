@@ -1,0 +1,208 @@
+2023-12-17 23:34:47.862 [info] Log level: Info
+2023-12-17 23:34:47.862 [info] Validating found git in: "git"
+2023-12-17 23:34:47.862 [info] Using git "2.34.1" from "git"
+2023-12-17 23:34:47.862 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-17 23:34:47.862 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-17 23:34:47.862 [info] Open repository: /home/elicer
+2023-12-17 23:34:47.862 [info] > git config --get commit.template [7ms]
+2023-12-17 23:34:47.862 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-17 23:34:47.862 [info] No remotes found in the git config file.
+2023-12-17 23:34:47.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-12-17 23:34:47.862 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-17 23:34:47.862 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 23:34:47.862 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-17 23:34:48.384 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/starter.py [2ms]
+2023-12-17 23:34:48.384 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:34:48.539 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-17 23:34:48.718 [info] > git show --textconv :starter.py [7ms]
+2023-12-17 23:34:48.720 [info] > git ls-files --stage -- /home/elicer/starter.py [2ms]
+2023-12-17 23:34:51.641 [info] > git status -z -uall [3803ms] (cancelled)
+2023-12-17 23:36:59.859 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/starter.py [2ms]
+2023-12-17 23:36:59.859 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:37:51.315 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/주택임대차보호법(법률)(제19356호)(20230418).pdf [2ms]
+2023-12-17 23:37:51.315 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:37:54.458 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.project_file_okay [1ms]
+2023-12-17 23:37:54.458 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:37:54.650 [info] > git show --textconv :.project_file_okay [11ms]
+2023-12-17 23:37:54.651 [info] > git ls-files --stage -- /home/elicer/.project_file_okay [1ms]
+2023-12-17 23:37:58.273 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.env [2ms]
+2023-12-17 23:37:58.273 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:37:58.469 [info] > git show --textconv :.env [11ms]
+2023-12-17 23:37:58.469 [info] > git ls-files --stage -- /home/elicer/.env [2ms]
+2023-12-17 23:38:05.808 [info] > git add -A -- . [100073ms]
+2023-12-17 23:38:05.808 [info] warning: CRLF will be replaced by LF in .local/lib/code-server-4.19.0/lib/vscode/node_modules/@vscode/proxy-agent/LICENSE.md.
+The file will have its original line endings in your working directory
+2023-12-17 23:38:06.779 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty [959ms]
+2023-12-17 23:38:06.779 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-12-17 23:38:06.791 [info] > git config --get-all user.name [1ms]
+2023-12-17 23:38:06.803 [info] > git config --get commit.template [2ms]
+2023-12-17 23:38:06.813 [info] No remotes found in the git config file.
+2023-12-17 23:38:06.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-17 23:38:08.125 [info] > git ls-files --stage -- /home/elicer/.env [18ms]
+2023-12-17 23:38:08.137 [info] > git cat-file -s deebe81423e52863c40b71f409c5077f1d0513c9 [4ms]
+2023-12-17 23:38:08.142 [info] > git status -z -uall [1317ms] (cancelled)
+2023-12-17 23:38:08.432 [info] > git show --textconv :.env [248ms]
+2023-12-17 23:38:09.573 [info] > git config --get commit.template [15ms]
+2023-12-17 23:38:09.600 [info] No remotes found in the git config file.
+2023-12-17 23:38:09.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-12-17 23:38:12.041 [info] > git status -z -uall [2424ms] (cancelled)
+2023-12-17 23:38:48.243 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-17 23:38:49.196 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.config/code-server/config.yaml [2ms]
+2023-12-17 23:38:49.197 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:38:49.424 [info] > git show --textconv :.config/code-server/config.yaml [15ms]
+2023-12-17 23:38:49.429 [info] > git ls-files --stage -- /home/elicer/.config/code-server/config.yaml [6ms]
+2023-12-17 23:38:49.442 [info] > git cat-file -s c445e59585b071ced0dab973dc1b12cc1b07d0c8 [2ms]
+2023-12-17 23:38:51.795 [info] > git check-ignore -v -z --stdin [10ms]
+2023-12-17 23:38:53.491 [info] > git check-ignore -v -z --stdin [8ms]
+2023-12-17 23:38:55.310 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.local/include/python3.10/greenlet/greenlet.h [1ms]
+2023-12-17 23:38:55.310 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:38:55.558 [info] > git check-ignore -v -z --stdin [27ms]
+2023-12-17 23:38:55.560 [info] > git show --textconv :.local/include/python3.10/greenlet/greenlet.h [14ms]
+2023-12-17 23:38:55.563 [info] > git ls-files --stage -- /home/elicer/.local/include/python3.10/greenlet/greenlet.h [5ms]
+2023-12-17 23:38:55.571 [info] > git cat-file -s d02a16e43426fb1c1bb286f1cda463cb9b1185ad [1ms]
+2023-12-17 23:38:59.157 [info] > git check-ignore -v -z --stdin [8ms]
+2023-12-17 23:38:59.799 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.local/etc/jupyter/nbconfig/notebook.d/pydeck.json [155ms]
+2023-12-17 23:38:59.800 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:38:59.856 [info] > git check-ignore -v -z --stdin [34ms]
+2023-12-17 23:38:59.944 [info] > git show --textconv :.local/etc/jupyter/nbconfig/notebook.d/pydeck.json [38ms]
+2023-12-17 23:38:59.983 [info] > git ls-files --stage -- /home/elicer/.local/etc/jupyter/nbconfig/notebook.d/pydeck.json [40ms]
+2023-12-17 23:38:59.995 [info] > git cat-file -s 143b42aeb573b96bac0391209543ff04ab82f651 [1ms]
+2023-12-17 23:39:01.936 [info] > git check-ignore -v -z --stdin [19ms]
+2023-12-17 23:39:06.350 [info] > git check-ignore -v -z --stdin [7ms]
+2023-12-17 23:39:09.952 [info] > git check-ignore -v -z --stdin [7ms]
+2023-12-17 23:39:13.857 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.env [4ms]
+2023-12-17 23:39:13.858 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:39:13.860 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.profile [18ms]
+2023-12-17 23:39:13.860 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:39:14.015 [info] > git show --textconv :.env [16ms]
+2023-12-17 23:39:14.019 [info] > git ls-files --stage -- /home/elicer/.env [8ms]
+2023-12-17 23:39:14.029 [info] > git cat-file -s deebe81423e52863c40b71f409c5077f1d0513c9 [2ms]
+2023-12-17 23:40:36.881 [info] > git check-ignore -v -z --stdin [7ms]
+2023-12-17 23:40:39.186 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/workspace.code-workspace [6ms]
+2023-12-17 23:40:39.186 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:40:40.224 [info] > git show --textconv :workspace.code-workspace [12ms]
+2023-12-17 23:40:40.232 [info] > git ls-files --stage -- /home/elicer/workspace.code-workspace [8ms]
+2023-12-17 23:40:40.241 [info] > git cat-file -s d60dc64c98e1aaa3e170e72bf4fecb7a5666994b [1ms]
+2023-12-17 23:40:42.765 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.gitconfig [2ms]
+2023-12-17 23:40:42.765 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:40:43.000 [info] > git show --textconv :.gitconfig [15ms]
+2023-12-17 23:40:43.006 [info] > git ls-files --stage -- /home/elicer/.gitconfig [7ms]
+2023-12-17 23:40:48.879 [info] > git check-ignore -v -z --stdin [46ms]
+2023-12-17 23:40:52.656 [info] > git check-ignore -v -z --stdin [27ms]
+2023-12-17 23:40:56.829 [info] > git check-ignore -v -z --stdin [100ms]
+2023-12-17 23:41:00.248 [info] > git check-ignore -v -z --stdin [486ms]
+2023-12-17 23:41:08.171 [info] > git check-ignore -v -z --stdin [219ms]
+2023-12-17 23:41:12.761 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/elicer/.gitconfig [1ms]
+2023-12-17 23:41:12.761 [info] fatal: your current branch 'main' does not have any commits yet
+2023-12-17 23:42:06.970 [info] > git -c user.useConfigOnly=true commit --quiet [656ms]
+2023-12-17 23:42:06.970 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no name was given and auto-detection is disabled
+2023-12-17 23:42:06.982 [info] > git config --get-all user.name [2ms]
+2023-12-17 23:42:07.002 [info] No remotes found in the git config file.
+2023-12-17 23:42:07.002 [info] > git config --get commit.template [10ms]
+2023-12-17 23:42:07.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-17 23:42:09.447 [info] > git status -z -uall [2435ms] (cancelled)
+2023-12-17 23:42:14.010 [info] > git ls-files --stage -- /home/elicer/.gitconfig [9ms]
+2023-12-17 23:42:14.075 [info] > git show --textconv :.gitconfig [6ms]
+2023-12-17 23:42:56.696 [info] > git show --textconv :.git/COMMIT_EDITMSG [18ms]
+2023-12-17 23:42:56.700 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [7ms]
+2023-12-17 23:42:56.728 [info] > git check-ignore -v -z --stdin [7ms]
+2023-12-17 23:42:56.867 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:42:56.908 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:43:57.448 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:43:57.487 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2023-12-17 23:44:06.556 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [7ms]
+2023-12-17 23:44:06.599 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:44:12.926 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [7ms]
+2023-12-17 23:44:12.966 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2023-12-17 23:44:44.298 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [7ms]
+2023-12-17 23:44:44.344 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:44:46.125 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:44:46.171 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2023-12-17 23:44:54.504 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:44:54.546 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-17 23:56:55.867 [info] > git check-ignore -v -z --stdin [438ms]
+2023-12-17 23:56:56.390 [info] > git check-ignore -v -z --stdin [10ms]
+2023-12-17 23:57:01.287 [info] > git check-ignore -v -z --stdin [177ms]
+2023-12-17 23:57:02.110 [info] > git check-ignore -v -z --stdin [68ms]
+2023-12-17 23:57:03.241 [info] > git check-ignore -v -z --stdin [65ms]
+2023-12-17 23:57:04.108 [info] > git show --textconv HEAD:.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [43ms]
+2023-12-17 23:57:04.108 [info] > git show --textconv :.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [30ms]
+2023-12-17 23:57:04.108 [info] > git ls-tree -l HEAD -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [16ms]
+2023-12-17 23:57:04.109 [info] fatal: Not a valid object name HEAD
+2023-12-17 23:57:04.115 [info] > git ls-files --stage -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [9ms]
+2023-12-17 23:57:04.129 [info] > git cat-file -s 378772c20e4887c77f9ebcdcd75a46c69a359768 [2ms]
+2023-12-17 23:57:04.664 [info] > git check-ignore -v -z --stdin [16ms]
+2023-12-17 23:57:08.915 [info] > git show --textconv :.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [29ms]
+2023-12-17 23:57:08.916 [info] > git ls-files --stage -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [16ms]
+2023-12-17 23:57:08.932 [info] > git check-ignore -v -z --stdin [18ms]
+2023-12-17 23:57:08.933 [info] > git cat-file -s 378772c20e4887c77f9ebcdcd75a46c69a359768 [4ms]
+2023-12-17 23:57:12.590 [info] > git check-ignore -v -z --stdin [72ms]
+2023-12-17 23:57:46.349 [info] > git ls-files --stage -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [14ms]
+2023-12-17 23:57:46.361 [info] > git ls-tree -l HEAD -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [41ms]
+2023-12-17 23:57:46.361 [info] fatal: Not a valid object name HEAD
+2023-12-17 23:57:46.365 [info] > git cat-file -s 378772c20e4887c77f9ebcdcd75a46c69a359768 [4ms]
+2023-12-17 23:57:46.366 [info] > git ls-files --stage -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [18ms]
+2023-12-17 23:57:46.378 [info] > git cat-file -s 378772c20e4887c77f9ebcdcd75a46c69a359768 [1ms]
+2023-12-17 23:57:46.424 [info] > git show --textconv HEAD:.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [1ms]
+2023-12-17 23:57:46.447 [info] > git show --textconv :.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [10ms]
+2023-12-17 23:57:46.453 [info] > git show --textconv :.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [7ms]
+2023-12-17 23:59:27.747 [info] > git show --textconv HEAD:.bash_history [44ms]
+2023-12-17 23:59:27.747 [info] > git show --textconv :.bash_history [30ms]
+2023-12-17 23:59:27.748 [info] > git ls-tree -l HEAD -- /home/elicer/.bash_history [17ms]
+2023-12-17 23:59:27.748 [info] fatal: Not a valid object name HEAD
+2023-12-17 23:59:27.754 [info] > git ls-files --stage -- /home/elicer/.bash_history [9ms]
+2023-12-17 23:59:27.767 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-17 23:59:28.289 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-17 23:59:32.683 [info] > git show --textconv :.bash_history [15ms]
+2023-12-17 23:59:32.690 [info] > git ls-files --stage -- /home/elicer/.bash_history [7ms]
+2023-12-17 23:59:32.703 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-17 23:59:34.916 [info] > git ls-tree -l HEAD -- /home/elicer/.bash_history [12ms]
+2023-12-17 23:59:34.916 [info] fatal: Not a valid object name HEAD
+2023-12-17 23:59:34.922 [info] > git ls-files --stage -- /home/elicer/.bash_history [7ms]
+2023-12-17 23:59:34.930 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-18 00:00:26.503 [info] > git ls-tree -l HEAD -- /home/elicer/.bash_history [17ms]
+2023-12-18 00:00:26.504 [info] fatal: Not a valid object name HEAD
+2023-12-18 00:00:26.508 [info] > git ls-files --stage -- /home/elicer/.bash_history [8ms]
+2023-12-18 00:00:26.521 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-18 00:01:12.814 [info] > git ls-tree -l HEAD -- /home/elicer/.bash_history [21ms]
+2023-12-18 00:01:12.814 [info] fatal: Not a valid object name HEAD
+2023-12-18 00:01:12.818 [info] > git ls-files --stage -- /home/elicer/.bash_history [8ms]
+2023-12-18 00:01:12.834 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-18 00:01:13.131 [info] > git show --textconv :.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [15ms]
+2023-12-18 00:01:13.137 [info] > git ls-files --stage -- /home/elicer/.cache/pip/http-v2/5/d/7/5/9/5d759d3dfb3f911596525a2817ba15d8471193bb6494c1a7e69e9663.body [5ms]
+2023-12-18 00:01:13.148 [info] > git cat-file -s 378772c20e4887c77f9ebcdcd75a46c69a359768 [1ms]
+2023-12-18 00:01:14.012 [info] > git ls-tree -l HEAD -- /home/elicer/.bash_history [19ms]
+2023-12-18 00:01:14.013 [info] fatal: Not a valid object name HEAD
+2023-12-18 00:01:14.018 [info] > git ls-files --stage -- /home/elicer/.bash_history [8ms]
+2023-12-18 00:01:14.034 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [2ms]
+2023-12-18 00:01:16.011 [info] > git show --textconv :.bash_history [17ms]
+2023-12-18 00:01:16.017 [info] > git ls-files --stage -- /home/elicer/.bash_history [7ms]
+2023-12-18 00:01:16.032 [info] > git cat-file -s a1d0f38e0215ad6364610432f1370413017aca70 [1ms]
+2023-12-18 00:01:17.236 [info] > git show --textconv :.git/COMMIT_EDITMSG [17ms]
+2023-12-18 00:01:17.241 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-18 00:02:28.402 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [7ms]
+2023-12-18 00:02:28.449 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]

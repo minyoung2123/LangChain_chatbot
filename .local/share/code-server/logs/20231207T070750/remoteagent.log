@@ -1,0 +1,28 @@
+2023-12-07 07:07:50.652 [info] 
+
+
+
+
+2023-12-07 07:07:50.662 [info] Extension host agent started.
+2023-12-07 07:07:55.956 [info] [10.0.2.100][2bd73043][ManagementConnection] New connection established.
+2023-12-07 07:07:57.882 [info] [10.0.2.100][438f2487][ExtensionHostConnection] New connection established.
+2023-12-07 07:07:57.982 [info] [10.0.2.100][438f2487][ExtensionHostConnection] <94> Launched Extension Host Process.
+2023-12-07 07:08:54.696 [info] [10.0.2.100][55142479][ManagementConnection] New connection established.
+2023-12-07 07:08:56.525 [info] [10.0.2.100][a9178b36][ExtensionHostConnection] New connection established.
+2023-12-07 07:08:56.536 [info] [10.0.2.100][a9178b36][ExtensionHostConnection] <284> Launched Extension Host Process.
+2023-12-07 07:08:58.405 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2023-12-07 07:08:58.406 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2023-12-07 07:08:58.407 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2023-12-07 07:09:08.270 [info] [10.0.2.100][55142479][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-07 07:09:08.294 [info] [10.0.2.100][a9178b36][ExtensionHostConnection] <284> Extension Host Process exited with code: 0, signal: null.
+2023-12-07 08:01:58.593 [info] [10.0.2.100][438f2487][ExtensionHostConnection] The client has reconnected.
+2023-12-07 08:02:05.495 [info] [10.0.2.100][2bd73043][ManagementConnection] The client has reconnected.

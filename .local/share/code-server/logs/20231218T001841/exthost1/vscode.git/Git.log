@@ -1,0 +1,46 @@
+2023-12-18 00:18:50.966 [info] Log level: Info
+2023-12-18 00:18:50.966 [info] Validating found git in: "git"
+2023-12-18 00:18:50.966 [info] Using git "2.34.1" from "git"
+2023-12-18 00:18:50.966 [info] > git rev-parse --show-toplevel [29ms]
+2023-12-18 00:18:50.966 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-12-18 00:18:50.966 [info] Open repository: /home/elicer
+2023-12-18 00:18:50.966 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-18 00:18:50.966 [info] fatal: this operation must be run in a work tree
+2023-12-18 00:18:50.966 [info] > git config --get commit.template [11ms]
+2023-12-18 00:18:50.966 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-18 00:18:50.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-12-18 00:18:50.982 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-18 00:18:50.991 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-18 00:18:51.044 [info] > git rev-parse --show-toplevel [46ms]
+2023-12-18 00:18:51.615 [info] > git check-ignore -v -z --stdin [14ms]
+2023-12-18 00:18:51.747 [info] > git show --textconv :.git/COMMIT_EDITMSG [16ms]
+2023-12-18 00:18:51.754 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [8ms]
+2023-12-18 00:18:53.360 [info] > git status -z -uall [2387ms] (cancelled)
+2023-12-18 00:19:00.103 [info] > git config --get commit.template [12ms]
+2023-12-18 00:19:00.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-12-18 00:19:02.694 [info] > git status -z -uall [2567ms] (cancelled)
+2023-12-18 00:19:03.257 [info] > git check-ignore -v -z --stdin [22ms]
+2023-12-18 00:19:05.289 [info] > git branch [2ms]
+2023-12-18 00:19:05.512 [info] > git rm --cached -r -- . [203ms]
+2023-12-18 00:19:05.512 [info] error: the following files have staged content different from both the
+file and the HEAD:
+    .bash_history
+    .env
+    .local/share/code-server/User/History/41e99a17/entries.json
+    .local/share/code-server/User/History/4fbbe3e4/entries.json
+    .local/share/code-server/coder-logs/code-server-stderr.log
+    .local/share/code-server/coder-logs/code-server-stdout.log
+    .local/share/code-server/logs/20231217T233438/exthost1/remoteexthost.log
+    .local/share/code-server/logs/20231217T233438/exthost1/vscode.git/Git.log
+(use -f to force removal)
+2023-12-18 00:19:05.543 [info] > git config --get commit.template [13ms]
+2023-12-18 00:19:05.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-18 00:19:08.389 [info] > git status -z -uall [2833ms] (cancelled)
+2023-12-18 00:22:08.895 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-18 00:22:08.954 [info] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+2023-12-18 00:22:59.222 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [5ms]
+2023-12-18 00:22:59.261 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-18 00:27:48.116 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [12ms]
+2023-12-18 00:27:48.184 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2023-12-18 00:28:13.850 [info] > git ls-files --stage -- /home/elicer/.git/COMMIT_EDITMSG [6ms]
+2023-12-18 00:28:13.906 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]

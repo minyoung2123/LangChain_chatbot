@@ -1,0 +1,103 @@
+2023-12-17 23:20:41.660 [info] Extension host with pid 382 started
+2023-12-17 23:20:41.673 [info] Lock '/home/elicer/.local/share/code-server/User/workspaceStorage/-3bbd8af6/vscode.lock': Lock acquired.
+2023-12-17 23:20:41.806 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-17 23:20:41.912 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-17 23:20:41.913 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-17 23:20:42.240 [info] Eager extensions activated
+2023-12-17 23:20:42.240 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-17 23:20:42.240 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-17 23:26:18.492 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-17 23:30:53.734 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-12-17 23:31:40.818 [info] Extension host terminating: received terminate message from renderer
+2023-12-17 23:31:40.820 [info] Lock '/home/elicer/.local/share/code-server/User/workspaceStorage/-3bbd8af6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-12-17 23:31:40.884 [error] Canceled: Canceled
+	at new l (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:108505)
+	at n.U (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:134:10833)
+	at F.<computed>.T.charCodeAt.F.<computed> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:134:8284)
+	at r.g (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139796)
+	at r.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139220)
+	at I.registerCommand.description (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:138530)
+	at r.h (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:140335)
+	at r.g (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139320)
+	at r.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139220)
+	at Object.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:140:21298)
+	at h.D [as value] (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1316925)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1988)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2204)
+	at Object.m [as dispose] (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1332842)
+	at /home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1337795
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1337781)
+	at i.<anonymous> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4339)
+	at i.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4474)
+	at i.<anonymous> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1318937)
+	at i.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4474)
+	at u (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:760)
+	at d.cb (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:10604)
+	at /home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8561
+	at Array.map (<anonymous>)
+	at d.Y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8548)
+	at d.terminate (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8818)
+	at u.terminate (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+	at t (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:9808)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:7854)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at f.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:14023)
+	at s.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:17068)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:15520)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at h.acceptChunk (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:11797)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:11084)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at c.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:150:19378) setContext undefined
+2023-12-17 23:31:40.888 [error] Canceled: Canceled
+	at new l (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:108505)
+	at n.U (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:134:10833)
+	at F.<computed>.T.charCodeAt.F.<computed> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:134:8284)
+	at r.g (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139796)
+	at r.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139220)
+	at I.registerCommand.description (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:138530)
+	at r.h (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:140335)
+	at r.g (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139320)
+	at r.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:125:139220)
+	at Object.executeCommand (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:140:21298)
+	at set b [as b] (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/github/dist/extension.js:2:714708)
+	at /home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/github/dist/extension.js:2:715349
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1408111)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1988)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2204)
+	at Object.m [as dispose] (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1332842)
+	at /home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1337795
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1337781)
+	at i.<anonymous> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4339)
+	at i.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4474)
+	at i.<anonymous> (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/extensions/git/dist/main.js:2:1318937)
+	at i.dispose (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:121:4474)
+	at u (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:760)
+	at d.cb (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:10604)
+	at /home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8561
+	at Array.map (<anonymous>)
+	at d.Y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8548)
+	at d.terminate (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:136:8818)
+	at u.terminate (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+	at t (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:9808)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:7854)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at f.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:14023)
+	at s.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:17068)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:15520)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at h.acceptChunk (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:11797)
+	at h.value (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:11084)
+	at c.y (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:1918)
+	at c.fire (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:80:2135)
+	at c.z (/home/elicer/.local/lib/code-server-4.19.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:150:19378) setContext undefined
+2023-12-17 23:31:40.888 [info] Extension host with pid 382 exiting with code 0
